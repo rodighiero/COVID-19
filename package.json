@@ -1,0 +1,44 @@
+{
+  "name": "cartography-of-covid-19",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodighiero/COVID-19.git"
+  },
+  "author": "Dario Rodighiero",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "csv-parser": "^3.0.0",
+    "d3-force-reuse": "^1.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "json-stringify-pretty-compact": "^3.0.0",
+    "mini-css-extract-plugin": "^1.5.1",
+    "natural": "^5.0.3",
+    "remove-accents": "^0.4.2",
+    "skmeans": "^0.11.3",
+    "stopword": "^1.0.7",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@tarekraafat/autocomplete.js": "9.0.5",
+    "css-reset-and-normalize": "^2.3.5",
+    "d3": "^6.7.0",
+    "fps": "0.0.3",
+    "pixi-viewport": "^4.30.4",
+    "pixi.js": "^6.0.2"
+  }
+}
